@@ -1,0 +1,14 @@
+import { Link } from "react-router-dom";
+function Navbar() {
+    return (
+        <nav>
+            <Link to="/home">Home</Link>{" | "}
+            <Link to="/students">Students</Link>{" | "}
+            <Link to="/students/add">Add Student</Link>{" | "}
+            <Link to="/about">About</Link>{" | "}
+            <Link to="/editstudent">editstudent</Link>
+               <Link to="/contact">Contact</Link>
+        </nav>
+    );
+}
+export default Navbar;
